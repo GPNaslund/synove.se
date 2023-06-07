@@ -1,7 +1,11 @@
 import Presentation from "@/components/presentation/presentation";
+import ServicePage from "@/components/services/servicePage";
 
 export default function HomePage() {
   return (
-    <Presentation />
+    <div>
+      <Presentation />
+      <ServicePage />
+    </div>
   )
 }
