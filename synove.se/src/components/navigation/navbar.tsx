@@ -14,7 +14,7 @@ const NavBar: React.FC<NavBarProps> = ({ currentPage }) => {
         <li className={`mr-10 ${currentPage === 'services' ? 'active' : ''}`}>Tjänster</li>
         <li className={`mr-10 ${currentPage === 'business' ? 'active' : ''}`}>Företag</li>
         <li className={`mr-10 ${currentPage === 'camp' ? 'active' : ''}`}>Sweat Camp</li>
-        <li className={`mr-10 ${currentPage === 'ir-sauna' ? 'active' : ''}`}>Recover Room</li>
+        <li className={`mr-10 ${currentPage === 'ir-sauna' ? 'active' : ''}`}>Recovery Room</li>
       </ul>
     </nav>
   );
