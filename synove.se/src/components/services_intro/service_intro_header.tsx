@@ -1,4 +1,4 @@
-export default function ServiceHeader() {
+export default function ServiceIntroHeader() {
   return (
     <div className="flex items-center mt-16">
       <div className="w-1/6 h-px bg-black"></div>

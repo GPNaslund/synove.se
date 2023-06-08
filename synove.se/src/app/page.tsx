@@ -1,11 +1,11 @@
 import Presentation from "@/components/presentation/presentation";
-import ServicePage from "@/components/services/servicePage";
+import ServiceIntroPage from "@/components/services_intro/service_intro_page";
 
 export default function HomePage() {
   return (
     <div>
       <Presentation />
-      <ServicePage />
+      <ServiceIntroPage />
     </div>
   )
 }
