@@ -2,7 +2,6 @@ export default function Presentation() {
   return (
     <div className="w-full grid grid-cols-2 bg-[url('/presentation-banner.jpg')] bg-cover bg-center bg-local" >
       <div className="col-span-1 place-self-center mt-12">
-        {/* <img src="/presentation-image.svg"></img> */}
       </div>
       <div className="col-span-1 p-24 text-white">
         <h2 className="text-5xl">
@@ -15,7 +14,7 @@ export default function Presentation() {
           Jag har varit personlig tränare sedan 2017 och verksamhetsansvarig på Kampsportstadion, 
           tävlar aktivt i thaiboxning/ K1 och bedriver en mängd olika projekt inom hälsa, idrott och friskvård.
           <br></br><br></br>
-          Min motivation är att inspirera till fysiskaktivitet och hållbar hälsa med fokus på helhet, personlig utveckling, rörelseglädje och att må bra.
+          Min motivation är att inspirera till fysisk aktivitet och hållbar hälsa med fokus på helhet, personlig utveckling, rörelseglädje och välmående.
         </p>
         <button className="mt-8 border-white border-2 py-2 px-4">
           <p>Kontakta mig</p>
