@@ -1,8 +1,8 @@
 'use client'
 
-import Link from "next/link";
-import smoothScroll from "@/app/util/smooth_scroll";
+
 import { useState } from 'react';
+import NavBarLinks from './navbar_links';
 
 type NavBarProps = {
   currentPage?: string;
@@ -15,6 +15,9 @@ const NavBar: React.FC<NavBarProps> = ({ currentPage }) => {
     setIsOpen(!isOpen);
   }
 
+  const desktopMenu: string = "xl:col-span-2 lg:col-span-3 hidden lg:flex justify-center place-self-center text-center";
+  const mobileMenu:string = "lg:hidden fixed top-0 left-0 w-full h-1/4 bg-white flex flex-col items-center justify-center transform transition-transform duration-300 ease-in-out";
+
 
   return (
     <nav className="bg-white py-4 grid grid-cols-4">
@@ -24,13 +27,8 @@ const NavBar: React.FC<NavBarProps> = ({ currentPage }) => {
       </div>
 
       {/* Menu for larger screns */}
-      <ul className="xl:col-span-2 lg:col-span-3 hidden lg:flex justify-center place-self-center text-center">
-        <li className={`mr-10 ${currentPage === 'home' ? 'active' : ''}`}><Link href="/">Hem</Link></li>
-        <li className={`mr-10 ${currentPage === 'services' ? 'active' : ''}`}><Link href="/tjanster/">Tjänster</Link></li>
-        <li className={`mr-10 ${currentPage === 'business' ? 'active' : ''}`}><Link href="/tjanster/" onClick={() => smoothScroll
-          ('corporate-health', '/tjanster')}>Företag</Link></li>
-        <li className={`mr-10 ${currentPage === 'camp' ? 'active' : ''}`}>Sweat Baby Sweat</li>
-        <li className={`mr-10 ${currentPage === 'ir-sauna' ? 'active' : ''}`}><a href="https://www.synove.se/recoveryroom" target="_blank">Recovery Room</a></li>
+      <ul className={`${mobileMenu} ${isOpen ? 'translate-y-0' : '-translate-y-full'}`}>
+        <NavBarLinks />
       </ul>
 
       <div className="lg:hidden col-start-4 col-span-1 flex justify-center items-center">
