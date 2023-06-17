@@ -2,7 +2,7 @@ import ServiceIntroItem from "./service_intro_item";
 
 export default function ServiceIntroAllItems() {
   return (
-    <div className="grid grid-cols-3 w-full">
+    <div className="grid lg:grid-cols-3 w-full md:grid-cols-1">
       <ServiceIntroItem
         imgSrc="/personal-training.svg"
         serviceName="Personlig träning"

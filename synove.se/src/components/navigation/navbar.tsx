@@ -26,13 +26,15 @@ const NavBar: React.FC<NavBarProps> = ({ currentPage }) => {
         <p className="text-3xl">SYNÖVE</p>
       </div>
 
-      {/* Menu for larger screns */}
-      <ul className={`${mobileMenu} ${isOpen ? 'translate-y-0' : '-translate-y-full'}`}>
-        <NavBarLinks />
-      </ul>
+      {/* Menu for desktop screens */}
+      <NavBarLinks ulStyling={desktopMenu} />
+
+      {/* Menu for mobile screens */}
+      <NavBarLinks ulStyling={`${mobileMenu} ${isOpen ? 'translate-y-0' : '-translate-y-full'}`}/>
+
 
       <div className="lg:hidden col-start-4 col-span-1 flex justify-center items-center">
-        {/* Hamburger menu for smaller screns */}
+        {/* Hamburger menu icon for smaller screns */}
         <div className={`hamburger-menu ${isOpen ? 'open' : ''}`} onClick={handleMenuClick}>
           <span className="hamburger-line"></span>
           <span className="hamburger-line"></span>

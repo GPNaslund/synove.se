@@ -7,7 +7,7 @@ type ServiceIntroItemProps = {
 
 const ServiceIntroItem: React.FC<ServiceIntroItemProps> = ({ imgSrc,serviceName, serviceDescriptionFirstSection, serviceDescriptionSecondSection}) => {
   return (
-    <div className="w-full flex flex-col items-center my-16">
+    <div className="lg:w-full flex flex-col items-center my-16">
       <div className="w-40">
         <img src={imgSrc}></img>
       </div>

@@ -12,7 +12,7 @@ export default function Footer() {
       <p>Mail: hej@synove.se</p>
       <p>Tel: 070-794 38 73</p>
     </div>
-    <div className="mt-8 grid grid-cols-3 justify-center">
+    <div className="mt-8 grid grid-cols-1 lg:grid-cols-3 justify-center">
       <a href={InstagramLink('synove_asplund')}>@synove_asplund</a>
       <a href={InstagramLink('heat_recovery')}>@heat_recovery</a>
       <a href={InstagramLink('proaktividrottscenter')}>@proaktividrottscenter</a>
