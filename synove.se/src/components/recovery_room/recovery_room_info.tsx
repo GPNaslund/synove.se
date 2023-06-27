@@ -1,11 +1,13 @@
 export default function RecoveryRoomInfo() {
   return (
-    <div className="w-full grid grid-cols-1 md:grid-cols-2">
-      <div className="col-span-1 w-full md:w-4/5 justify-self-center align-self-middle">
-        <img src="/recovery-room.jpg" className="p-8 mt-12 md:mt-0 md:p-12"></img>
+    <div className="w-full grid grid-cols-1 lg:grid-cols-2">
+      <div className="col-span-1 w-full md:w-4/5 justify-self-center align-self-middle p-8 mt-12 md:mt-0 md:py-12 flex items-center justify-center">
+        <div className="aspect-w-4 aspect-h-3 flex items-center justify-center">
+          <img src="/recovery-room.jpg"></img>
+        </div>
       </div>
-      <div className="col-span-1 px-12 text-center md:text-left lg:p-24 w-full lg:w-4/5">
-        <h5 className="text-3xl mb-5 lg:my-5">Recovery Room</h5>
+      <div className="col-span-1 p-8 text-center lg:text-left lg:py-12 w-full lg:w-4/5 justify-self-center">
+        <h5 className="text-2xl lg:text-3xl mb-5">Recovery Room</h5>
         <p>Hyr en stund för dig själv i vårat recovery room!</p>
         <br/>
         <p>Rummet är utrustat med infraröd bastu, ljusterapi, massagepistol, compression boots, 

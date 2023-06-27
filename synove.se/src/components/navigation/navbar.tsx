@@ -30,7 +30,7 @@ const NavBar: React.FC<NavBarProps> = ({ currentPage }) => {
       <NavBarLinks ulStyling={desktopMenu} />
 
       {/* Menu for mobile screens */}
-      <NavBarLinks ulStyling={`${mobileMenu} ${isOpen ? 'translate-y-0' : '-translate-y-full'}`}/>
+      <NavBarLinks ulStyling={`${mobileMenu} ${isOpen ? 'translate-y-0' : '-translate-y-full'}`} handleMenuClick={handleMenuClick} />
 
 
       <div className="lg:hidden col-start-4 col-span-1 flex justify-center items-center">
