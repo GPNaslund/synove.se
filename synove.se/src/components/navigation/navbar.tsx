@@ -15,7 +15,7 @@ const NavBar: React.FC<NavBarProps> = ({ currentPage }) => {
     setIsOpen(!isOpen);
   }
 
-  const desktopMenu: string = "xl:col-span-2 lg:col-span-3 hidden lg:flex justify-center place-self-center text-center";
+  const desktopMenu: string = "xl:col-span-2 lg:col-span-2 hidden lg:flex justify-center place-self-center text-center";
   const mobileMenu:string = "lg:hidden fixed top-0 left-0 w-full h-1/4 bg-white flex flex-col items-center justify-center transform transition-transform duration-300 ease-in-out";
 
 

@@ -3,7 +3,7 @@ export default function RecoveryRoomInfo() {
     <div className="w-full grid grid-cols-1 lg:grid-cols-2">
       <div className="col-span-1 w-full md:w-4/5 justify-self-center align-self-middle p-8 mt-12 md:mt-0 md:py-12 flex items-center justify-center">
         <div className="aspect-w-4 aspect-h-3 flex items-center justify-center">
-          <img src="/recovery-room.jpg"></img>
+          <img src="/recovery-room.jpg" alt="Recovery room sauna"></img>
         </div>
       </div>
       <div className="col-span-1 p-8 text-center lg:text-left lg:py-12 w-full lg:w-4/5 justify-self-center">
