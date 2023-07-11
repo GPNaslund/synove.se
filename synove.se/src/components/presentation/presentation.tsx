@@ -14,9 +14,11 @@ export default function Presentation() {
           <br></br><br></br>
           Min motivation är att inspirera till fysisk aktivitet och hållbar hälsa med fokus på helhet, personlig utveckling, rörelseglädje och välmående.
         </p>
-        <button className="mt-8 border-white border-2 py-2 px-4">
-          <p>Kontakta mig</p>
-        </button>
+        <a href="mailto:hej@synove.se">
+          <button className="mt-8 border-white border-2 py-2 px-4">
+            <p>Kontakta mig</p>
+          </button>
+        </a>
       </div>
     </div>
   )
