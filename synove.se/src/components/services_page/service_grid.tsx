@@ -12,28 +12,6 @@ export default function ServiceGrid() {
       Min drivkraft är att motivera och ge dig verktyg för att kunna må bra, prestera bättre och få en hållbar hälsa. \n
       Vi går igenom dina mål och ditt varför så att vi tillsammans kan skapa dom bästa förutsättningarna för att maximera din personliga utveckling.`}
       />
-      <ServiceItem
-        isTop={false}
-        imgSrc="/rehab.svg"
-        serviceName="Rehabilitering"
-        serviceDescription={`För att du ska hålla dig smärtfri och funktionell så krävs bra träning i rätt mängd!\n
-        I samarbete med leg.Naprapat på Proaktiv Idrottscenter så coachar jag dig genom hela processen från 
-        smärta eller skada, till smärtfrihet och rörelseglädje. Du har mig som stöd genom hela resan och tillsammans 
-        så ser vi till att du får alla verktyg du behöver för en smärtfri och stark kropp.\n
-        Modern rehabilitering liknar vanlig träning till stor del, där mer omsorg om rörelsekvalitet 
-        samt träningsmängd ges för att säkerställa ett bättre mående. Det är viktigt för mig att 
-        rehabiliteringen inte blir ett tråkigt "måste", fokus ligger på vad du gillar att träna och 
-        att hitta sätt att få din favoritträning att fungera rehabiliterande!`}
-      />
-      <ServiceItem
-        isTop={false}
-        imgSrc="/group-training.svg"
-        serviceName="Gruppträning"
-        serviceDescription={`Vill du förbättra din styrka, kondition och uthållenhet?\n
-        Vi tränar tillsammans i en grupp för att motivera och pusha varandra till att maximera prestationen och resultat!\n
-        Gruppträningen är rolig och utmanande pass där vi utmanar och tränare hela kroppen. 
-        Träningen är anpassad så att alla kan vara med och inga förkunskaper krävs!`}
-      />
       <div id="corporate-health">
       <ServiceItem
         isTop={false}
@@ -50,6 +28,28 @@ export default function ServiceGrid() {
         Jag har även en naprapat kopplat på mitt team om ni önskar ännu mera friskvård.`}
       />
       </div>
+     <ServiceItem
+        isTop={false}
+        imgSrc="/group-training.svg"
+        serviceName="Gruppträning"
+        serviceDescription={`Vill du förbättra din styrka, kondition och uthållenhet?\n
+        Vi tränar tillsammans i en grupp för att motivera och pusha varandra till att maximera prestationen och resultat!\n
+        Gruppträningen är rolig och utmanande pass där vi utmanar och tränare hela kroppen. 
+        Träningen är anpassad så att alla kan vara med och inga förkunskaper krävs!`}
+      />
+      <ServiceItem
+        isTop={false}
+        imgSrc="/rehab.svg"
+        serviceName="Rehabilitering"
+        serviceDescription={`För att du ska hålla dig smärtfri och funktionell så krävs bra träning i rätt mängd!\n
+        I samarbete med leg.Naprapat på Proaktiv Idrottscenter så coachar jag dig genom hela processen från 
+        smärta eller skada, till smärtfrihet och rörelseglädje. Du har mig som stöd genom hela resan och tillsammans 
+        så ser vi till att du får alla verktyg du behöver för en smärtfri och stark kropp.\n
+        Modern rehabilitering liknar vanlig träning till stor del, där mer omsorg om rörelsekvalitet 
+        samt träningsmängd ges för att säkerställa ett bättre mående. Det är viktigt för mig att 
+        rehabiliteringen inte blir ett tråkigt "måste", fokus ligger på vad du gillar att träna och 
+        att hitta sätt att få din favoritträning att fungera rehabiliterande!`}
+      />
       <ServiceItem
         isTop={false}
         imgSrc="/sports-teams.svg"

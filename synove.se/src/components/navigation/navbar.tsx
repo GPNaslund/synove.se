@@ -3,6 +3,7 @@
 
 import { useState } from 'react';
 import NavBarLinks from './navbar_links';
+import Link from "next/link";
 
 type NavBarProps = {
   currentPage?: string;
@@ -22,8 +23,8 @@ const NavBar: React.FC<NavBarProps> = ({ currentPage }) => {
   return (
     <nav className="bg-white py-4 grid grid-cols-4">
       <div className="col-span-1 flex items-center justify-start ml-10">
-        <img src="/Mini-bones.svg" alt="Proaktiv logo" className="mr-2"></img>
-        <p className="text-3xl">SYNÖVE</p>
+        <Link href="/"><img src="/Mini-bones.svg" alt="Proaktiv logo" className="mr-2"></img></Link>
+        <Link href="/"><p className="text-3xl">SYNÖVE</p></Link>
       </div>
 
       {/* Menu for desktop screens */}

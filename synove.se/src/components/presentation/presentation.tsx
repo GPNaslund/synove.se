@@ -1,6 +1,6 @@
 export default function Presentation() {
   return (
-    <div className="w-full grid grid-cols-2 bg-[url('/presentation-banner.jpg')] bg-cover bg-center bg-local" >
+    <div className="w-full grid grid-cols-2 bg-[url('/workout-banner.jpg')] bg-cover bg-center bg-local" >
       <div className="md:col-start-2 md:justify-self-end col-span-2 text-right md:text-left p-10 text-white">
         <h2 className="text-3xl md:text-4xl lg:text-5xl">
           SYNÖVE ASPLUND

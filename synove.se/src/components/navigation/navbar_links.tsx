@@ -18,12 +18,11 @@ const NavBarLinks: React.FC<NavBarProps> = ({ currentPage, ulStyling, handleMenu
         </li>
         <li className={`lg:mr-10 ${currentPage === 'business' ? 'active' : ''}`}>
           <Link href="/tjanster/" onClick={() => {
-            handleMenuClick!();
+            handleMenuClick
             smoothScroll('corporate-health', '/tjanster');
           }
           }>Företag</Link>
         </li>
-        {/* <li className={`lg:mr-10 ${currentPage === 'camp' ? 'active' : ''}`}>Sweat Baby Sweat</li> */}
         <li className={`lg:mr-10 ${currentPage === 'ir-sauna' ? 'active' : ''}`}>
           <a href="https://www.recoveryroom.se" target="_blank" onClick={handleMenuClick}>Recovery Room</a>
         </li>
